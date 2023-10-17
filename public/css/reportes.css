@@ -1,0 +1,207 @@
+* { padding: 0; margin: 0; }
+
+body { font-family: helvetica; font-size: 15px; color: black; margin-top: 10px;}
+
+.container { margin: 0px 30px;}
+
+/* Estilos contrato */
+
+/* td, tr { border: 1px solid black; } */
+
+input { border: 1px solid black; height: 22px; line-height: 20px; padding-left: 5px; }
+
+.inputs-small { border-bottom: 0; width: 180px; }
+
+.inputs-large { border-bottom: 0; width: 98%; }
+
+.inputs-border { border-bottom: 0.8px solid black; }
+
+.cabecera { width: 100%; text-align: left; padding: 10px; }
+
+.no-border { border: 0 !important; right: 10px !important; }
+
+.no-border-b{ border-bottom: 0; }
+
+.table-bordered { width: 99%; padding: 10px; border-collapse: collapse; }
+
+.table-bordered td{ border: 1px solid black; border-collapse: collapse; height: 25px; padding: 3px; }
+
+.text{ width: 250px; }
+
+.prueba {
+    border: 1px solid blue;
+}
+
+.cabecera .logo img { object-fit: cover; width:80%; }
+
+.logo { text-align: left !important; padding: 0 30px !important; width: 220px !important; height: 220px !important;}
+
+.empty { text-align: center; }
+
+
+/* Estilos financiamiento */
+
+.container-3 { margin: 0 30px; width: 650px;}
+
+.logoF { width: 10px; height: 10px;}
+
+.cabecera .logoF img { object-fit: cover; width: 70%; }
+
+.logoP { width: 120px; height: 120px;}
+
+.cabecera .logoP img { object-fit: cover; width: 70%; }
+
+.bg-date { background-color: rgba(157, 165, 162, 0.3); text-align: center; width: 100px;}
+
+.bg-cells { background-color: rgb(3, 3, 3); color: white;}
+
+.bg-cells-white { border-bottom: 1px solid white !important; }
+
+.bg-cells-gold { background-color: rgb(167, 147, 37); color: rgb(255, 255, 255); }
+
+.tables-center-2 {width: 170px; text-align: center }
+
+.align-monto-2 { padding-left: 60px;}
+
+.border { border: 1px solid black; padding: 4px;}
+
+
+/* Estilos comisiones */
+
+.container-2 { margin: -25px 45px; }
+
+.logoC { text-align: left; padding: 0 10px; width: 100px; height: 100px;}
+
+.cabecera .logoC img { object-fit: cover; width:100%; }
+
+.cabecera-2 { padding: 15px 45px 0px; width: 100%;}
+
+.cabecera-3 { padding: 10px 100px 0px; width: 100%;}
+
+.border-b { border-bottom: 1px solid black; }
+
+.border-b2 { border-bottom: 3px solid black; }
+
+.border-t { border-top: 1px solid black; }
+
+.table-right { margin-left: 500px; width: 220px; text-align: center; }
+
+.tables-center {width: 220px; text-align: center }
+
+.font-small { font-size: 13px; }
+
+.cell-width-xs { width: 70px;}
+
+.cell-width { width: 150px; }
+
+.cell-width-medium { width: 300px;}
+
+.cell-width-large { width: 550px;}
+
+.text-2 { width: 50px; }
+
+.input-background { background-color: yellow;}
+
+.align-border { padding-top: 3px; }
+
+.space-inputs { margin-left: 30px; }
+
+.align-monto { padding-right: 10px;}
+
+.label-comission { border: 1px solid black; padding: 5px 25px; width: 5px; }
+
+.table-bordered-2 { width: 99%; border-collapse: collapse; }
+
+.table-bordered-2 td{ border-collapse: collapse; height: 10px; padding: 3px; }
+
+/* CXC */
+
+.container-4 { margin: -0px 15px; margin-top: -120px;}
+
+.font-xg { font-size: 20px; }
+
+.table-bordered-3 { width: 99%; padding: 10px;  border-collapse: collapse;  margin-top: -70px;}
+
+.table-bordered-3 td{ border: 3px solid black; border-collapse: collapse; height: 25px; padding: 3px; }
+
+.input-padding { padding-left: 15px; }
+
+/* Reportes ventas */
+
+
+.table-bordered-4 { width: 99%; padding: 10px; border-collapse: collapse; }
+
+.table-bordered-4 td{ border: 1px solid black; border-collapse: collapse; height: 25px; padding: 3px; }
+
+.table-bordered-4 th{ border: 1px solid black; border-collapse: collapse; height: 25px; padding: 3px; background-color: #0070C0; color: #ffffff;}
+
+.logoV { width: 300px; height: 300px;}
+
+.cabecera .logoV img { object-fit: cover; width:100%; }
+
+.cobroDetalle{
+ margin-top: -50px;
+}
+/* Reportes CXC */
+
+.container-5 { margin: -45px 15px 50px 15px; }
+
+.table-bordered-5 { width: 70%; padding: 10px; border-collapse: collapse; margin: auto;}
+
+.table-bordered-5 td{ height: 15px; padding: 2px; border-collapse: collapse; }
+
+.table-bordered-5 th{ height: 15px; padding: 2px; border-bottom: 2px solid #000; border-collapse: collapse; font-style: italic;}
+
+.border-t2 { border-top: 1px solid black; }
+
+.border-t3 { border-top: 2.5px solid black; }
+
+.m-top { line-height: 40px; }
+
+.logoI { width: 300px; height: 150px;}
+
+.cabecera .logoI img { object-fit: cover; width:100%; }
+
+pre {
+    font-family: "Arial", sans-serif; 
+    white-space: pre-wrap; 
+}
+
+.bg-cells-blue {
+    background-color: #b0daf8;
+    text-transform: uppercase;
+}
+
+/* Reportes Tesoreria*/
+.table-cabecera { 
+    font-size:12px;
+    width: 100%; 
+    padding: 10px; 
+}
+.table-cabecera td{ 
+    width: 33% !important;
+    height: 15% !important;
+}
+.table-cabecera .logo img { 
+    object-fit: cover; 
+    width: 100%; 
+}
+.titulo{
+    width: 100% !important  ;
+    text-wrap: nowrap;
+    font-weight: bold;
+    text-align: center;
+}
+.table-borderedT {
+    width: 100%;
+    font-size: 12px;
+}
+
+.table-borderedT thead {
+    border-collapse: separate;
+}
+
+.table-borderedT th {
+    border: 1px solid black;
+}
+html { margin: 30px 0px}
